@@ -15,5 +15,6 @@ defmodule SpaceAge do
   """
   @spec age_on(planet, pos_integer) :: {:ok, float} | {:error, String.t()}
   def age_on(planet, seconds) do
+    "Hello, World!"
   end
 end
